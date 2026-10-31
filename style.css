@@ -659,11 +659,7 @@ VALUES ↓
 }
 
 .values__description {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
     padding: 32px 64px 32px 0;
-    align-items: flex-start;
 }
 
 .values__list {
@@ -1416,6 +1412,13 @@ MOBILE RESPONSIVENESS ↓
         margin-right: 0px;
         padding-right: 48px;
     }
+    .values__list {
+        max-width: 20rem;
+        flex-direction: column;
+    }
+    .value {
+        margin-top: 2.5rem;
+    }
     footer {
         padding: 80px 32px;
     }
@@ -1470,6 +1473,17 @@ MOBILE RESPONSIVENESS ↓
     .step__description {
         margin-top: 12px;
         margin-left: 0;
+    }
+    .values__list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .value {
+        margin-right: 0px;
+        align-items: center;
+    }
+    .value:nth-of-type(1) {
+        margin-right: 0px;
     }
 }
 
