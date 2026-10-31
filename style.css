@@ -1538,6 +1538,26 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__description {
         padding-left: 0;
     }
+    .footer__columns {
+        justify-content: flex-start;
+    }
+    .footer__column {
+        width: calc(100% / 3);
+    }
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__copyright, 
+    .footer__socials {
+        margin-top: 32px;
+    }
+    .footer__socials {
+        margin-left: 0px;
+    }
+    .footer__social--link:first-child {
+        margin-left: 0px;
+    }
 }
 
 
@@ -1656,5 +1676,19 @@ MOBILE RESPONSIVENESS ↓
     }
     .start__button:nth-child(2) {
         margin-top: 16px;
+    }
+    .footer__columns {
+        justify-content: center;
+    }
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+    }
+    .footer__copyright {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
     }
 }
