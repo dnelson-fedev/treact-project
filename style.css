@@ -1367,6 +1367,10 @@ MOBILE RESPONSIVENESS ↓
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+    #start .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
     .btn__menu {
         display: block;
     }
@@ -1448,6 +1452,21 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__description {
         padding-left: 48px;
     }
+    .start__row {
+        flex-direction: column;
+    }
+    .start__title {
+        text-align: center;
+        width: 100%;
+        max-width: 512px;
+    }
+    .start__buttons {
+        width: auto;
+        margin-top: 24px;
+    }
+    .start__button {
+        padding: 16px 32px;
+    }
     footer {
         padding: 80px 32px;
     }
@@ -1520,6 +1539,7 @@ MOBILE RESPONSIVENESS ↓
         padding-left: 0;
     }
 }
+
 
 
 
@@ -1617,5 +1637,24 @@ MOBILE RESPONSIVENESS ↓
     }
     .testimonial__buttons {
         margin-top: 32px;
+    }
+    .start__container {
+        padding: 80px 0;
+    }
+    .start__title {
+        font-size: 24px;
+    }
+    .start__buttons {
+        flex-direction: column;
+    }
+    .start__button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    .start__button:nth-child(1) {
+        margin-right: 0;
+    }
+    .start__button:nth-child(2) {
+        margin-top: 16px;
     }
 }
