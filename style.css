@@ -1341,6 +1341,13 @@ MOBILE RESPONSIVENESS ↓
         width: 5rem;
         bottom: -50px;
     }
+    .plan__bottom {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .plan__button {
+        max-width: none;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1418,6 +1425,13 @@ MOBILE RESPONSIVENESS ↓
     }
     .value {
         margin-top: 2.5rem;
+    }
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan {
+        margin-right: 0px;
     }
     footer {
         padding: 80px 32px;
@@ -1552,5 +1566,11 @@ MOBILE RESPONSIVENESS ↓
     }
     .steps__list {
         margin-top: 48px;
+    }
+    .plan__price {
+        font-size: 36px;
+    }
+    .plan__bottom {
+        padding: 2rem 1rem;
     }
 }
